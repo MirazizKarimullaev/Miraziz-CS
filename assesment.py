@@ -1,8 +1,6 @@
 import turtle
 from turtle import *
 t = Turtle()
-
-
 def square(x,y):
     for i in range(4):
         t.forward(x)
@@ -14,5 +12,4 @@ def squareshell (iRange):
         square(length,90)
         t.right(5)
         length= length+5
-
 squareshell(60)
