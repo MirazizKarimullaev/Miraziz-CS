@@ -5,10 +5,10 @@ def star(x,y):
     for i in range(5):
         t.forward(x)
         t.right(y)
-def starshell(iRange):
+def starshell(z):
     length=5
     rotate=144
-    for i in range(iRange):
+    for i in range(z):
         star(length,rotate)
         length +=5
         t.right(5)
