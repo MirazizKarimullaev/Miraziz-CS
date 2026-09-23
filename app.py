@@ -14,6 +14,7 @@ rectangle()
 t.right(180)
 t.forward(150)
 t.left(180)
+
 def triangle():
     t.forward(90)
     t.left(120)
@@ -23,4 +24,3 @@ def triangle():
     t.left(120)
 triangle()
 
-turtle.done()
